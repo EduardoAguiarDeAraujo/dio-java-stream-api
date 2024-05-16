@@ -85,6 +85,8 @@ Exemplo: `stream.min(Comparator.naturalOrder())` ou `stream.max(Comparator.natur
 - `reduce(T identity, BinaryOperator<T> accumulator)`: Combina os elementos da Stream usando o acumulador especificado e retorna o resultado final.
 Exemplo: `stream.reduce(0, (a, b) -> a + b)`
 
+![img.png](img.png)
+
 ### Lambda
 
 - As expressões lambda permitem representar interfaces funcionais (interfaces com um único método abstrato) de forma mais concisa e possibilitam escrever código no estilo funcional.

@@ -21,6 +21,8 @@ public class ConsumerExample {
       }
     };
 
+    numeros.forEach(imprimirNumeroPar);
+
     // Usar o Consumer para imprimir números pares no Stream
     numeros.stream()
         .filter(n -> n % 2 == 0)
